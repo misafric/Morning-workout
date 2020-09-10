@@ -1,0 +1,42 @@
+nav a {
+    text-decoration: none;
+    color: crimson;
+}
+
+#about blockquote {
+    background-color: #eaeaea;
+}
+
+#users span {
+    font-weight: bold;
+}
+
+#users span:nth-child(2) {
+    color: crimson;
+}
+
+#creators .link {
+    font-family: "Lato", sans-serif;
+    text-decoration: none;
+}
+
+#creators .link.font {
+    font-family: "PT Serif", serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#cta h2 {
+    color: crimson;
+    font-family: "Lato", sans-serif;
+}
+
+ul li:nth-child(1),
+ul li:nth-child(3) {
+    text-decoration: underline;
+}
+/* In unordered list style the first and the third list item so they are underlined.
+
+example: only odd numbers targeted : ul li:nth-child(odd) {text-decoratin: underline;}
+
+*/
